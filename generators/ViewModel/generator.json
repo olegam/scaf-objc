@@ -2,11 +2,11 @@
   "files": [
     {
       "from": "ViewModel.h.hbs",
-      "to": "{{name}}ViewModel.h"
+      "to": "{{name}}/{{name}}ViewModel.h"
     },
     {
       "from": "ViewModel.m.hbs",
-      "to": "{{name}}ViewModel.m"
+      "to": "{{name}}/{{name}}ViewModel.m"
     }
   ]
 }

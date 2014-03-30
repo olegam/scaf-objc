@@ -2,11 +2,11 @@
   "files": [
     {
       "from": "ViewController.h.hbs",
-      "to": "{{name}}ViewController.h"
+      "to": "{{name}}/{{name}}ViewController.h"
     },
     {
       "from": "ViewController.m.hbs",
-      "to": "{{name}}ViewController.m"
+      "to": "{{name}}/{{name}}ViewController.m"
     }
   ],
   "dependencies": [

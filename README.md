@@ -31,7 +31,7 @@ With something like this:
 ```
 
 ## Usage
-You can generate a ViewController named DemoViewController using
+You can create a `Demo` directory with a ViewController named DemoViewController using
 ``` bash
 scaf ViewController Demo
 ```

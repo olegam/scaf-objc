@@ -1,6 +1,6 @@
 # Scaffolt Objective-C
 
-Scaffolding templates for Objective-C and iOS development based on the [scaffolt npm module](https://github.com/paulmillr/scaffolt).
+Scaffolding templates for Objective-C and iOS development based on the [scaffolt npm module](https://github.com/paulmillr/scaffolt) and [Handlebars](http://handlebarsjs.com) templates.
 
 ## Requirements
 

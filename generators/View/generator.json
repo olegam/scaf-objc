@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "from": "View.h.hbs",
+      "to": "{{name}}View.h"
+    },
+    {
+      "from": "View.m.hbs",
+      "to": "{{name}}View.m"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "from": "ViewController.h.hbs",
+      "to": "{{name}}ViewController.h"
+    },
+    {
+      "from": "ViewController.m.hbs",
+      "to": "{{name}}ViewController.m"
+    }
+  ],
+  "dependencies": [
+    {"type": "View"},
+    {"type": "ViewModel"}
+  ]
+}

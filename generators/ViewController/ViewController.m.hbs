@@ -1,0 +1,43 @@
+//
+//  Created by {{developer_name}} on {{date}}.
+//  Copyright (c) {{year}} {{company_name}}. All rights reserved.
+//
+
+#import "{{name}}ViewController.h"
+#import "{{name}}ViewModel.h"
+#import "{{name}}View.h"
+
+@interface {{name}}ViewController ()
+@property(nonatomic, strong) {{name}}ViewModel *viewModel;
+@end
+
+@implementation {{name}}ViewController {
+	{{name}}View *_mainView;
+}
+
+- (id)init {
+	self = [super init];
+	if (self) {
+		_viewModel = [[{{name}}ViewModel alloc] init];
+	}
+	return self;
+}
+
+- (void)viewDidLoad {
+	[super viewDidLoad];
+
+	[self bindToViewModel];
+}
+
+- (void)bindToViewModel {
+
+}
+
+- (UIView *)mainView {
+	if (!_mainView) {
+		_mainView = [{{name}}View new];
+	}
+	return _mainView;
+}
+
+@end

@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "from": "ViewModel.h.hbs",
+      "to": "{{name}}ViewModel.h"
+    },
+    {
+      "from": "ViewModel.m.hbs",
+      "to": "{{name}}ViewModel.m"
+    }
+  ]
+}

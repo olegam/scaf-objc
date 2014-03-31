@@ -40,4 +40,7 @@ module.exports = function(Handlebars) {
       return date.getFullYear();
     };
   })());
+  Handlebars.registerHelper('toLowerCase', function(str) {
+    return str.toLowerCase();
+  });
 };

@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "from": "Cell.h.hbs",
+      "to": "{{name}}/{{name}}Cell.h"
+    },
+    {
+      "from": "Cell.m.hbs",
+      "to": "{{name}}/{{name}}Cell.m"
+    }
+  ]
+}

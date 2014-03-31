@@ -1,0 +1,30 @@
+//
+//  Created by {{developer_name}} on {{date}}.
+//  Copyright (c) {{year}} {{company_name}}. All rights reserved.
+//
+
+#import "{{name}}Cell.h"
+
+@implementation {{name}}Cell {
+
+}
+
+- (void)addSubviews {
+	[self.contentView addSubview:self.titleLabel];
+}
+
+- (void)defineLayout {
+	[_titleLabel mas_updateConstraintsWithLeftMarginRelativeToSuperview];
+	[_titleLabel mas_updateConstraintsWithRightMarginRelativeToSuperview];
+	[_titleLabel mas_updateConstraintsCenterY];
+}
+
+- (UILabel *)titleLabel {
+	if (!_titleLabel) {
+		_titleLabel = [UILabel new];
+		_titleLabel.cas_styleClass = @"{{toLowerCase name}}-cell-title";
+	}
+	return _titleLabel;
+}
+
+@end

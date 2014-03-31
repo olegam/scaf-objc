@@ -9,10 +9,11 @@
 
 @interface {{name}}ViewController ()
 @property(nonatomic, strong) {{name}}ViewModel *viewModel;
+@property(nonatomic, strong) {{name}}View *mainView;
 @end
 
 @implementation {{name}}ViewController {
-	{{name}}View *_mainView;
+
 }
 
 - (id)init {
@@ -23,6 +24,11 @@
 	return self;
 }
 
+- (void)loadView {
+	self.mainView = [[{{name}}View alloc] init];
+	self.view = self.mainView;
+}
+
 - (void)viewDidLoad {
 	[super viewDidLoad];
 
@@ -31,13 +37,6 @@
 
 - (void)bindToViewModel {
 
-}
-
-- (UIView *)mainView {
-	if (!_mainView) {
-		_mainView = [{{name}}View new];
-	}
-	return _mainView;
 }
 
 @end
